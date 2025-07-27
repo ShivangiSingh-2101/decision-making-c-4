@@ -38,4 +38,15 @@ int main()
     }
     return 0;
 }
+/*Output
+Enter first number: 20
+Enter second number: 5
+Calculator Menu
+Enter 1 for Addition
+Enter 2 for Subtraction
+Enter 3 for Multiplication
+Enter 4 for Division
+3
+Result: 100
+*/
 
