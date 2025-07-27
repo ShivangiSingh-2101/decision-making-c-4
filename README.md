@@ -33,3 +33,22 @@ Print “The number is negative and even.”
 Else
 Print “The number is negative and odd.”
 End
+Program 5(2) 
+Aim:
+To write a C++ program that takes a character as input and checks whether it is a vowel or a consonant.
+
+ Theory
+In the English alphabet, the vowels are: a, e, i, o, u (bth lowercase and uppercase).
+All other alphabetic characters are considered consonants.This program uses a simple if-else structure:
+If the input matches any of the vowels (either lowercase or uppercase), it is identified as a vowel.
+Otherwise, it is considered a consonant.
+
+Algorithm:
+Start
+Declare a variable a of type char.
+Prompt the user to enter a character.
+Take input and store it in a.Check if a is one of the following characters: 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'
+If yes, print "The character is a vowel."
+Else, print "The character is a consonant."
+End
+
