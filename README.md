@@ -16,23 +16,25 @@ Using conditional statements (if-else), we can classify the number based on thes
 
 Algorithm:
 
-Start
-Declare an integer variable a.
-Prompt the user to enter a number.
-Read the number into variable a.
-If a == 0
-Print “The number is zero and it is even.”
-Else if a > 0
-If a % 2 == 0
-Print “The number is positive and even.”
-Else
-Print “The number is positive and odd.”
-Else (i.e., a < 0)
-If a % 2 == 0
-Print “The number is negative and even.”
-Else
-Print “The number is negative and odd.”
-End
+- Start
+- Declare an integer variable a.
+- Prompt the user to enter a number.
+- Read the number into variable a.
+- If a == 0
+- Print “The number is zero and it is even.”
+- Else if a > 0
+- If a % 2 == 0
+- Print “The number is positive and even.”
+- Else
+- Print “The number is positive and odd.”
+- Else (i.e., a < 0)
+- If a % 2 == 0
+- Print “The number is negative and even.”
+- Else
+- Print “The number is negative and odd.”
+- End
+
+- 
 Program 5(2) 
 Aim:
 To write a C++ program that takes a character as input and checks whether it is a vowel or a consonant.
@@ -44,13 +46,13 @@ If the input matches any of the vowels (either lowercase or uppercase), it is id
 Otherwise, it is considered a consonant.
 
 Algorithm:
-Start
-Declare a variable a of type char.
-Prompt the user to enter a character.
-Take input and store it in a.Check if a is one of the following characters: 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'
-If yes, print "The character is a vowel."
-Else, print "The character is a consonant."
-End
+- Start
+- Declare a variable a of type char.
+- Prompt the user to enter a character.
+- Take input and store it in a.Check if a is one of the following characters: 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'
+- If yes, print "The character is a vowel."
+- Else, print "The character is a consonant."
+- End
 Program 5(3)
 Aim:
 To write a C++ program that takes a number (1 to 12) as input and displays the corresponding month using a switch-case statement.
@@ -63,17 +65,19 @@ The switch statement checks the number and prints the corresponding month.
 
  Algorithm:
 
-Start
-Declare an integer variable choice.
-Display a prompt to the user to enter a number (1 to 12).
-Take user input.
-Use a switch statement:
-Case 1 → Print "January"
-Case 2 → Print "February"
+ - Start
+- Declare an integer variable choice.
+- Display a prompt to the user to enter a number (1 to 12).
+- Take user input.
+- Use a switch statement:
+- Case 1 → Print "January"
+- Case 2 → Print "February"
 ...
-Case 12 → Print "December"
-Default → Print "INVALID CHOICE!!!!"
-End
+- Case 12 → Print "December"
+- Default → Print "INVALID CHOICE!!!!"
+  - End
+
+
 Program5(4)
 Aim:
 To create a C++ program that performs basic arithmetic operations (Addition, Subtraction, Multiplication, Division) using a switch case.
@@ -84,24 +88,25 @@ This program uses integers a, b for inputs and c for operation choice.
 It includes validation for division by zero using if (b != 0).
 
 Algorithm:
-Start
-Declare three variables: a, b, c
-Prompt and input two numbers a and b
-Display a menu for operations:
-1 → Addition
-2 → Subtraction
-3 → Multiplication
-4 → Division
-Input choice c
-Use switch(c):
-Case 1: Print a + b
-Case 2: Print a - b
-Case 3: Print a * b
-Case 4:
-If b ≠ 0, print a / b
-Else print "not defined"
-Default: Print "Enter Valid option"
-End
+- Start
+- Declare three variables: a, b, c
+- Prompt and input two numbers a and b
+- Display a menu for operations:-
+- 1 → Addition
+- 2 → Subtraction
+- 3 → Multiplication
+- 4 → Division
+- Input choice c
+- Use switch(c):
+- Case 1: Print a + b
+- Case 2: Print a - b
+- Case 3: Print a * b
+- Case 4:
+- If b ≠ 0, print a / b
+- Else print "not defined"
+- Default: Print "Enter Valid option"
+- End
+
 Program 5(5)
 
 Aim:
@@ -112,15 +117,15 @@ This avoids using inbuilt functions and helps understand control flow.
 The program stores the result in a variable largest and prints it.
 
  Algorithm:
-Start
-Declare variables a, b, c, and largest
-Input three numbers
-Compare:
-If a >= b:
-If a >= c, largest = a
-Else, largest = c
-Else:
-If b >= c, largest = b
-Else, largest = c
-Print the largest number
-End
+- Start
+- Declare variables a, b, c, and largest
+- Input three numbers
+- Compare:
+- If a >= b:
+- If a >= c, largest = a
+- Else, largest = c
+- Else:
+- If b >= c, largest = b
+- Else, largest = c
+- Print the largest number
+- End
